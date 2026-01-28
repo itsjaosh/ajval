@@ -1,11 +1,9 @@
-/* CSS Variables - Will be updated by JavaScript */
 :root {
-    /* Colors */
-    --background-color-1: #ffafbd;
-    --background-color-2: #ffc3a0;
-    --button-color: #ff6b6b;
-    --button-hover: #ff8787;
-    --text-color: #ff4757;
+    --background-color-1: #fae8eb;
+    --background-color-2: #f6caca;
+    --button-color: #7fc2c6;
+    --button-hover: #cd9fcc;
+    --text-color: #030014;
 
     /* Animations */
     --float-duration: 15s;
@@ -44,7 +42,7 @@ body {
     z-index: 1;
 }
 
-.heart, .bear {
+.heart, .faces {
     position: absolute;
     font-size: 2rem;
     animation: float var(--float-duration) linear infinite;
@@ -145,8 +143,6 @@ body {
     transform: scale(1.02);
     box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
 }
-
-/* Ensure track is visible */
 .slider::-webkit-slider-runnable-track,
 .slider::-moz-range-track {
     width: 100%;
@@ -155,8 +151,6 @@ body {
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
-
-/* Ensure thumb is properly styled */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 35px;
@@ -266,12 +260,12 @@ h1 {
 }
 
 h2 {
-    color: #ff8787;
+    color: #cd9fcc;
 }
 
 .super-love {
     font-size: 1.5em;
-    color: #ff4757;
+    color: #030014;
     font-weight: bold;
     transform: scale(1.2);
     display: inline-block;
@@ -281,7 +275,7 @@ h2 {
 
 .celebration-text {
     font-size: 3em;
-    color: #ff4757;
+    color: #030014;
     font-weight: bold;
     margin: 30px 0;
     animation: bounce var(--bounce-speed) infinite alternate;
@@ -311,8 +305,3 @@ h2 {
     transition: all 0.3s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
-
-.music-btn:hover {
-    transform: scale(1.05);
-    background: var(--secondary-color);
-} 
