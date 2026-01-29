@@ -39,7 +39,7 @@ const CONFIG = {
         backgroundEnd: "#f6caca",
         buttonBackground: "#7fc2c6",
         buttonHover: "#cd9fcc",
-        textColor: "#030014"
+        textColor: "#000000"
     },
     animations: {
         floatDuration: "15s",
