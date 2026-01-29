@@ -49,3 +49,4 @@ const CONFIG = {
     },
 };
 window.VALENTINE_CONFIG = CONFIG; 
+}
