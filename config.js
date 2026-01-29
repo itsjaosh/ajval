@@ -24,7 +24,7 @@ const CONFIG = {
         }
     },
     loveMessages: {
-        loveMessages:
+        loveMessages:{
         extreme: "OH MAH GOD I ALSO LOVE YOU THIS MUCH (thodu more tho non-competitively😈😈",
         high: "I LOVE YOU MORE AND FOREVER LOVE YOU MORE",
         normal: "agar ap sochte ho mei apko itna hi pyar hai mei apko aur bhi pyar karunga jabtak iska sau guna na ho jaye"
