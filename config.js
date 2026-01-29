@@ -5,9 +5,6 @@ const CONFIG = {
         hearts: ['❤️','💙','💗','💖','💓','💚','💝','🩷','🤍'],
         faces: ['😉','😜','😝','😈']
     },
-
-    // Questions and answers
-    // Customize each question and its possible responses
     questions: {
         first: {
             text: "Dear Aarna Rana...",
@@ -21,22 +18,17 @@ const CONFIG = {
             nextBtn: "chal"
         },
         third: {
-            text: "kya ap iss saal ki वेलेंटाइन्स ap meri वेलेंटाइन्स bana chahte ho...?", // The big question!
-            yesBtn: "theek hai🙄🙄",                                             // Text for "Yes" button
+            text: "kya ap iss saal ki वेलेंटाइन्स ap meri वेलेंटाइन्स bana chahte ho...?",
+            yesBtn: "theek hai🙄🙄",
             noBtn: "nahi🤪🤪"
         }
     },
-
-    // Love meter messages
-    // They show up depending on how far they slide the meter
     loveMessages: {
         loveMessages:
         extreme: "OH MAH GOD I ALSO LOVE YOU THIS MUCH (thodu more tho non-competitively😈😈",
         high: "I LOVE YOU MORE AND FOREVER LOVE YOU MORE",
         normal: "agar ap sochte ho mei apko itna hi pyar hai mei apko aur bhi pyar karunga jabtak iska sau guna na ho jaye"
     },
-
-    // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
