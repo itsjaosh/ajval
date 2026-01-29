@@ -38,6 +38,7 @@ function getDefaultColor(key) {
     return defaults[key];
 }
 document.title = config.pageTitle;
+
 window.addEventListener('DOMContentLoaded', () => {
     validateConfig();
     document.getElementById('valentineTitle').textContent = `${config.valentineName}, my love...`;
